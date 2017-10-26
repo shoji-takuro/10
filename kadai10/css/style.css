@@ -1,0 +1,110 @@
+/* formのtable */
+
+form {
+    text-align: center;
+}
+
+input, textarea, select, button {
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input, textarea, select, button {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+textarea {
+  display: block;
+}
+
+form table {
+    border-top: thin solid #bfbfbf;
+    text-align: left;
+    margin: 0 auto;
+}
+
+form th {
+    border-bottom: thin solid #bfbfbf;
+    border-right: thin solid #bfbfbf;
+    width: 250px;
+    padding-left: 16px;
+    padding-right: 64px;
+}
+
+form td {
+    border-bottom: thin solid #bfbfbf;
+    width: 300px;
+}
+
+input[type="text"], input[type="password"] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    width: 240px;
+    height: 36px;
+    border: thin solid #bfbfbf;
+}
+
+input[type="date"], select {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 16px;
+    height: 36px;
+    width: 240px;
+    border: thin solid #bfbfbf;
+}
+
+select{
+    width: 150px;
+}
+
+textarea {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    width: 240px;
+    height: 108px;
+    border: thin solid #bfbfbf;
+}
+
+input[type="radio"] {
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* select.phpのtable */
+.container p{
+    font-size: 40px;
+}
+
+.container table{
+    border: thin solid #696969;
+}
+
+.container table th{
+    border-right: thin solid #696969;
+    height: 36px;
+}
+
+.container table td{
+    border-right: thin solid #696969;
+    border-top: thin solid #696969;
+    height: 36px;
+}
+
+.container table:first-child{
+    margin-bottom: 90px;
+}
